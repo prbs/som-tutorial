@@ -14,6 +14,8 @@
 		2BDA3B4F1B0CD061003F15C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA3B4E1B0CD061003F15C2 /* Images.xcassets */; };
 		2BDA3B521B0CD061003F15C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA3B501B0CD061003F15C2 /* LaunchScreen.xib */; };
 		2BDA3B5E1B0CD061003F15C2 /* som_tutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA3B5D1B0CD061003F15C2 /* som_tutorialTests.m */; };
+		2BDA3B681B0CD0AE003F15C2 /* bluesGuitarra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA3B671B0CD0AE003F15C2 /* bluesGuitarra.wav */; };
+		2BDA3B6A1B0CD0BF003F15C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDA3B691B0CD0BF003F15C2 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		2BDA3B571B0CD061003F15C2 /* som-tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "som-tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDA3B5C1B0CD061003F15C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BDA3B5D1B0CD061003F15C2 /* som_tutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = som_tutorialTests.m; sourceTree = "<group>"; };
+		2BDA3B671B0CD0AE003F15C2 /* bluesGuitarra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bluesGuitarra.wav; path = ../../jogo/jogo/Images.xcassets/bluesGuitarra.wav; sourceTree = "<group>"; };
+		2BDA3B691B0CD0BF003F15C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDA3B6A1B0CD0BF003F15C2 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		2BDA3B351B0CD061003F15C2 = {
 			isa = PBXGroup;
 			children = (
+				2BDA3B691B0CD0BF003F15C2 /* AVFoundation.framework */,
 				2BDA3B401B0CD061003F15C2 /* som-tutorial */,
 				2BDA3B5A1B0CD061003F15C2 /* som-tutorialTests */,
 				2BDA3B3F1B0CD061003F15C2 /* Products */,
@@ -96,6 +102,7 @@
 		2BDA3B411B0CD061003F15C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BDA3B671B0CD0AE003F15C2 /* bluesGuitarra.wav */,
 				2BDA3B421B0CD061003F15C2 /* Info.plist */,
 				2BDA3B431B0CD061003F15C2 /* main.m */,
 			);
@@ -202,6 +209,7 @@
 				2BDA3B4D1B0CD061003F15C2 /* Main.storyboard in Resources */,
 				2BDA3B521B0CD061003F15C2 /* LaunchScreen.xib in Resources */,
 				2BDA3B4F1B0CD061003F15C2 /* Images.xcassets in Resources */,
+				2BDA3B681B0CD0AE003F15C2 /* bluesGuitarra.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
