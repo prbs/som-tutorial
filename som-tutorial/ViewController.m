@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    AVAudioPlayer *musica;
+}
+- (IBAction)playSound:(id)sender;
 
 @end
 
@@ -17,6 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"bluesGuitarra" ofType:@"wav"]];
+    musica = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,5 +30,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)playSound:(id)sender {
     
+    [musica play];
+}
 @end
